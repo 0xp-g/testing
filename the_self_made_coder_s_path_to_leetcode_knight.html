@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Self-Made Coder's Path to LeetCode Knight</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; /* bg-gray-900 */
+            color: #d1d5db; /* text-gray-300 */
+        }
+        h1, h2, h3 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 700;
+        }
+        .prose {
+            max-width: 80ch;
+        }
+        .card {
+            background-color: #1f2937; /* bg-gray-800 */
+            border: 1px solid #374151; /* border-gray-700 */
+            border-radius: 0.75rem; /* rounded-xl */
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.875rem;
+        }
+        .tag-phase1 { background-color: #1d4ed8; color: #eff6ff; } /* bg-blue-700 text-blue-100 */
+        .tag-phase2 { background-color: #be123c; color: #fff1f2; } /* bg-rose-700 text-rose-100 */
+        .tag-phase3 { background-color: #f59e0b; color: #422006; } /* bg-amber-500 text-amber-900 */
+        .highlight {
+            color: #f59e0b; /* text-amber-500 */
+        }
+        .code-block {
+            background-color: #0f172a; /* bg-slate-900 */
+            font-family: 'Roboto Mono', monospace;
+            padding: 1rem;
+            border-radius: 0.5rem;
+            border: 1px solid #374151;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+    </style>
+</head>
+<body class="p-4 sm:p-6 md:p-8">
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <h1 class="text-4xl sm:text-5xl font-extrabold text-white mb-2">The Self-Made Coder's Path</h1>
+            <p class="text-xl text-amber-500 font-semibold">Your Personal Roadmap to LeetCode Knight</p>
+            <p class="mt-4 text-gray-400 max-w-2xl mx-auto">This guide contains every strategy, plan, and piece of advice we've discussed. It is your blueprint for success. Trust the process, trust yourself, and let's get to work.</p>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Section 1: The Grand Plan - Phase Breakdown -->
+            <section id="plan" class="card">
+                <h2 class="text-2xl font-bold text-white mb-4 border-b border-gray-700 pb-2">1. The Grand Plan: Phase Breakdown</h2>
+                <p class="mb-6">Your journey is a marathon, not a sprint. We've broken it down into three distinct phases, each with a clear goal and a specific set of topics from the TUF A-Z DSA Sheet.</p>
+                
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold text-white mb-2"><span class="tag tag-phase1">Phase 1</span> Accelerated Foundations</h3>
+                    <p class="text-gray-400 mb-2"><strong class="highlight">Goal:</strong> Build a rock-solid foundation. Solve most Easy and many Medium problems.</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1">
+                        <li>Basics (Patterns, Hashing, Recursion)</li>
+                        <li>Sorting & Binary Search</li>
+                        <li>Arrays (All levels) & Strings</li>
+                        <li>Linked List & Bit Manipulation</li>
+                        <li>Recursion & Backtracking</li>
+                        <li>Stacks, Queues & Two Pointers</li>
+                        <li>Sliding Window & Heaps</li>
+                        <li>Greedy Algorithms</li>
+                        <li>Binary Trees & Binary Search Trees</li>
+                    </ul>
+                </div>
+
+                <div class="mb-6">
+                    <h3 class="text-xl font-semibold text-white mb-2"><span class="tag tag-phase2">Phase 2</span> The Grind & Advanced Topics</h3>
+                    <p class="text-gray-400 mb-2"><strong class="highlight">Goal:</strong> Master the gatekeeper topics. Push your rating towards 1800-2000+.</p>
+                    <ul class="list-disc list-inside text-gray-300 space-y-1">
+                        <li>Graphs (Huge & Critical)</li>
+                        <li>Dynamic Programming (Huge & Critical)</li>
+                        <li>Tries</li>
+                        <li>Advanced Strings (KMP, Z-function, etc. if time permits)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-semibold text-white mb-2"><span class="tag tag-phase3">Phase 3</span> Peak Performance</h3>
+                    <p class="text-gray-400 mb-2"><strong class="highlight">Goal:</strong> Refine speed, accuracy, and strategy to break the 2200 barrier.</p>
+                    <p class="text-gray-300">At this stage, your focus shifts from learning new topics to targeted revision. Use the TUF sheet to review and re-solve problems in your weakest areas identified during contests.</p>
+                </div>
+            </section>
+
+            <!-- Section 2: The Self-Made Coder's Schedule -->
+            <section id="schedule" class="card">
+                <h2 class="text-2xl font-bold text-white mb-4 border-b border-gray-700 pb-2">2. The Self-Made Coder's Schedule</h2>
+                <p class="mb-6">Discipline and consistency are your greatest assets. This schedule is designed for your life, balancing your ambition with the need to avoid burnout.</p>
+                
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Non-Gym Days ("Deep Dive")</h3>
+                        <p><strong class="highlight">Time:</strong> 2-3 hours.</p>
+                        <p><strong class="highlight">Goal:</strong> Tackle new, challenging topics from the TUF sheet. This is for deep learning.</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-white mb-2">Gym Days ("Reinforcement")</h3>
+                        <p><strong class="highlight">Time:</strong> 60-90 minutes.</p>
+                        <p><strong class="highlight">Goal:</strong> Solve 1 Medium problem on a topic you learned recently. This reinforces knowledge.</p>
+                    </div>
+                </div>
+
+                <div class="mt-6 p-4 bg-amber-900/30 border border-amber-500/50 rounded-lg">
+                    <h3 class="text-xl font-semibold text-amber-400 mb-2">The Burnout Guard: Your Most Important Rule</h3>
+                    <p class="text-amber-200">Listen to your body and mind. It is <strong class="text-white">NOT</strong> a failure to fall back to an easier plan on a tough day.
+                    <ul class="list-disc list-inside mt-2 text-amber-200">
+                        <li><strong class="text-white">Feeling Strong?</strong> Execute the full plan.</li>
+                        <li><strong class="text-white">Feeling Okay?</strong> Solve one Medium problem and call it a win.</li>
+                        <li><strong class="text-white">Feeling Wiped Out?</strong> Solve one Easy problem. Just one. Consistency is the victory.</li>
+                    </ul>
+                    </p>
+                </div>
+            </section>
+
+            <!-- Section 3: The Contest Playbook -->
+            <section id="contests" class="card">
+                <h2 class="text-2xl font-bold text-white mb-4 border-b border-gray-700 pb-2">3. The Contest Playbook</h2>
+                <p class="mb-6">Contests are your training ground. They are non-negotiable. Treat them as a skill to be practiced.</p>
+                
+                <h3 class="text-xl font-semibold text-white mb-2">The 90-Minute Game Plan</h3>
+                <ol class="list-decimal list-inside space-y-2">
+                    <li><strong class="highlight">First 5 Mins (Reconnaissance):</strong> Open and read all 4 problems. Gauge difficulty. Don't solve yet.</li>
+                    <li><strong class="highlight">Next 20-25 Mins (The Sprint):</strong> Attack Q1 and Q2. Solve them quickly and cleanly.</li>
+                    <li><strong class="highlight">Next 30-40 Mins (The Core Battle):</strong> Focus on Q3. This is often the rank-defining problem.</li>
+                    <li><strong class="highlight">Remaining Time (The Moonshot):</strong> Attack Q4. Even a brute-force solution can score points.</li>
+                    <li><strong class="highlight">The 10-Minute Rule:</strong> If you make zero progress on a problem for 10 minutes, MOVE ON. Come back later.</li>
+                </ol>
+
+                <div class="mt-6 p-4 bg-blue-900/30 border border-blue-500/50 rounded-lg">
+                     <h3 class="text-xl font-semibold text-blue-400 mb-2">The Upsolving Rule: Where Real Learning Happens</h3>
+                     <p class="text-blue-200">After every contest, dedicate a 2-hour block to upsolving. If you encounter a problem with an unknown concept:</p>
+                     <ol class="list-decimal list-inside mt-2 text-blue-200">
+                         <li>Identify the unknown pattern (e.g., "Trie", "DP on Trees").</li>
+                         <li>Do a "Micro-Learning" session: Watch the single TUF video that explains the concept for that specific problem.</li>
+                         <li>Solve the contest problem.</li>
+                         <li>Return to your main study plan the next day.</li>
+                     </ol>
+                </div>
+            </section>
+
+            <!-- Section 4: The Art of Problem Solving -->
+            <section id="problem-solving" class="card">
+                <h2 class="text-2xl font-bold text-white mb-4 border-b border-gray-700 pb-2">4. The Art of Problem Solving</h2>
+                <p class="mb-6">This is the blueprint for how to think. Follow these steps for every problem you face.</p>
+                <ol class="list-decimal list-inside space-y-4">
+                    <li>
+                        <strong class="text-white">Absorb the Problem:</strong> Read it twice. Identify Inputs, Outputs, and especially <strong class="highlight">CONSTRAINTS</strong>. The constraints are a massive hint about the required time complexity.
+                    </li>
+                    <li>
+                        <strong class="text-white">Work Through Examples:</strong> Use the provided examples and create your own simple ones. Think of edge cases (empty arrays, duplicates, negative numbers).
+                    </li>
+                    <li>
+                        <strong class="text-white">Visualize & Dry Run (The Whiteboard Phase):</strong> Use your physical notebook. Draw the data structures. Manually trace your logic with a pen. Draw arrays, pointers, trees, graphs. This catches most errors before you write a single line of code.
+                    </li>
+                    <li>
+                        <strong class="text-white">Trigger Critical Thinking:</strong>
+                        <ul class="list-disc list-inside ml-4 mt-2 text-gray-300">
+                            <li>Always ask <strong class="highlight">"Why?"</strong> Why does this approach work?</li>
+                            <li><strong class="highlight">Generalize</strong> the problem. How would you solve it for K items instead of 3?</li>
+                            <li><strong class="highlight">Embrace the struggle.</strong> Don't look at the solution for at least 30-45 minutes.</li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+
+            <!-- Section 5: The Coder's Notebook -->
+            <section id="notebook" class="card">
+                <h2 class="text-2xl font-bold text-white mb-4 border-b border-gray-700 pb-2">5. The Coder's Notebook</h2>
+                <p class="mb-6">Your notebook is for ideas, not code. It's a "mental trigger" archive to train pattern recognition. Here's the format for each entry:</p>
+                <div class="code-block">
+                    <p><strong class="text-white">Problem:</strong> `15. 3Sum`</p>
+                    <hr class="border-gray-600 my-2">
+                    <p><strong class="text-white">The Gist (1 Line):</strong></p>
+                    <p class="pl-4">Find all unique triplets in an array that sum to zero.</p>
+                    <br>
+                    <p><strong class="text-white">Key Insight / Pattern:</strong></p>
+                    <p class="pl-4">Sort the array. Then, for each element `i`, use a <strong class="highlight">Two Pointer</strong> approach on the rest of the array to find pairs that sum to `-nums[i]`. (Pseudo-code is perfect here).</p>
+                    <br>
+                    <p><strong class="text-white">The Gotcha / Edge Case:</strong></p>
+                    <p class="pl-4">The main challenge is avoiding duplicate triplets. After finding a valid triplet, you must move the `left`/`right` pointers past any duplicate numbers.</p>
+                    <br>
+                    <p><strong class="text-white">Complexity:</strong></p>
+                    <p class="pl-4">Time: O(N^2), Space: O(1) or O(N)</p>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="text-center mt-12 mb-8">
+                <p class="text-lg text-gray-400">This setback is not the end. It is the beginning of your story.</p>
+                <p class="text-2xl font-bold text-amber-500 mt-2">You can, and you will.</p>
+            </footer>
+
+        </main>
+    </div>
+</body>
+</html>
